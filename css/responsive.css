@@ -1,0 +1,233 @@
+/* =========================
+   LARGE TABLETS
+========================= */
+
+@media(max-width:1200px){
+
+  .hero h1{
+    font-size:4.8rem;
+  }
+
+  .featured-project{
+    gap:40px;
+  }
+
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media(max-width:992px){
+
+  .navbar{
+    width:92%;
+    padding:18px 30px;
+  }
+
+  .hero{
+    padding-top:120px;
+  }
+
+  .hero h1{
+    font-size:4rem;
+  }
+
+  .hero-description{
+    font-size:1rem;
+  }
+
+  .featured-project{
+    grid-template-columns:1fr;
+  }
+
+  .project-content{
+    position:relative;
+    top:0;
+  }
+
+  .project-content h3{
+    font-size:2.5rem;
+  }
+
+  .floating-card{
+    display:none;
+  }
+
+  .skills-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media(max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+    gap:20px;
+
+    border-radius:30px;
+
+    padding:20px;
+  }
+
+  .nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+  }
+
+  .hero{
+    min-height:90vh;
+  }
+
+  .hero h1{
+    font-size:3rem;
+  }
+
+  .hero-subtitle{
+    font-size:1rem;
+  }
+
+  .hero-description{
+    font-size:0.95rem;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .btn{
+    width:220px;
+  }
+
+  .social-icons{
+    margin-top:30px;
+  }
+
+  .section{
+    padding:100px 6%;
+  }
+
+  .section-title{
+    margin-bottom:50px;
+  }
+
+  .section-title h2{
+    font-size:2.5rem;
+  }
+
+  .glass-card{
+    padding:35px;
+  }
+
+  .skills-grid{
+    grid-template-columns:1fr;
+  }
+
+  .skill-card{
+    padding:30px;
+  }
+
+  .project-content h3{
+    font-size:2rem;
+  }
+
+  .project-gallery{
+    gap:18px;
+  }
+
+  .contact-info{
+    grid-template-columns:1fr;
+  }
+
+  .timeline-item h3{
+    font-size:1.6rem;
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:576px){
+
+  .navbar{
+    top:10px;
+    width:95%;
+  }
+
+  .logo{
+    font-size:1.1rem;
+  }
+
+  .nav-links{
+    gap:14px;
+  }
+
+  .nav-links a{
+    font-size:0.9rem;
+  }
+
+  .hero{
+    padding:120px 5% 80px;
+  }
+
+  .hero h1{
+    font-size:2.4rem;
+  }
+
+  .hero-description{
+    font-size:0.9rem;
+  }
+
+  .section{
+    padding:80px 5%;
+  }
+
+  .section-title h2{
+    font-size:2rem;
+  }
+
+  .glass-card{
+    padding:25px;
+    border-radius:24px;
+  }
+
+  .project-content h3{
+    font-size:1.7rem;
+  }
+
+  .tags{
+    gap:10px;
+  }
+
+  .tags span{
+    font-size:0.8rem;
+    padding:8px 14px;
+  }
+
+  .timeline-item{
+    padding-left:20px;
+  }
+
+  .timeline-item h3{
+    font-size:1.3rem;
+  }
+
+  .contact-box{
+    padding:22px;
+  }
+
+  footer{
+    padding:30px 20px;
+    font-size:0.9rem;
+  }
+
+}
