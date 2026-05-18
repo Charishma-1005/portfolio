@@ -269,20 +269,26 @@ body{
 }
 
 .social-icons a{
-  width:55px;
-  height:55px;
+  width:90px;
+  height:90px;
 
   display:flex;
+  flex-direction:column;
+
   align-items:center;
   justify-content:center;
 
-  border-radius:50%;
+  gap:8px;
+
+  border-radius:24px;
 
   background:rgba(255,255,255,0.05);
 
   border:1px solid rgba(255,255,255,0.08);
 
   transition:0.4s;
+
+  text-decoration:none;
 }
 
 .social-icons a:hover{
@@ -299,6 +305,12 @@ body{
   height:22px;
 
   filter:invert(1);
+}
+
+.social-icons span{
+  color:white;
+  font-size:0.82rem;
+  font-weight:500;
 }
 
 /* FLOATING GLASS CARDS */
